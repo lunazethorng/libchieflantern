@@ -1,0 +1,8 @@
+version: "3"
+services:
+  app:
+    image: busybox
+    restart: unless-stopped
+PORT=8080
+HOST=0.0.0.0
+LOG_LEVEL=info
